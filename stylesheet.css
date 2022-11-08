@@ -2,9 +2,9 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
 
-	.play-area img.cover-image {
+  .play-area img.cover-image {
       display: none;
-	}
+  }
 
   .play-area-buttons {
     margin-left: 0;
@@ -61,6 +61,10 @@
     --bs-modal-width: 100% !important;
     --bs-modal-bg: transparent;
     background-color: rgba(5, 5, 4, 0.85);
+  }
+	
+  li.nav-item {
+    margin-top: 6px;
   }
 
 }
