@@ -33,20 +33,38 @@
   }
 
 
-footer {
-  width: 100%;
-  background: #291301;
-  color: #620000;
-  text-align: center;
-  padding-top: 35px;
-  padding-bottom: 35px;
-  border-top: 5px solid #1D0D01;
-  font-family: 'Rubik';
-  margin-top: 70px !important;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-}
+  footer {
+    width: 100%;
+    background: #291301;
+    color: #620000;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    border-top: 5px solid #1D0D01;
+    font-family: 'Rubik';
+    margin-top: 70px !important;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  }
+
+  .input-group-text {
+    display: none;
+  }
+
+  .input-group input {
+    border-top-right-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+    border-top-left-radius: 5px !important;
+    border-bottom-left-radius: 5px !important;
+  }
+
+  .modal {
+    --bs-modal-width: 100% !important;
+    --bs-modal-bg: transparent;
+    background-color: rgba(5, 5, 4, 0.85);
+  }
 
 }
+
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
@@ -77,18 +95,35 @@ footer {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   }
 
-footer {
-  width: 100%;
-  background: #291301;
-  color: #620000;
-  text-align: center;
-  padding-top: 35px;
-  padding-bottom: 35px;
-  border-top: 5px solid #1D0D01;
-  font-family: 'Rubik';
-  margin-top: 70px !important;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-}
+  footer {
+    width: 100%;
+    background: #291301;
+    color: #620000;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    border-top: 5px solid #1D0D01;
+    font-family: 'Rubik';
+    margin-top: 70px !important;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  }
+
+  .input-group-text {
+    display: none;
+  }
+
+  .input-group input {
+    border-top-right-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+    border-top-left-radius: 5px !important;
+    border-bottom-left-radius: 5px !important;
+  }
+
+  .modal {
+    --bs-modal-width: 100% !important;
+    --bs-modal-bg: transparent;
+    background-color: rgba(5, 5, 4, 0.85);
+  }
 
 
 }
@@ -108,6 +143,23 @@ footer {
 
   .play-area-img img {
     display: block;
+  }
+
+  .input-group-text {
+    display: none;
+  }
+
+  .input-group input {
+    border-top-right-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+    border-top-left-radius: 5px !important;
+    border-bottom-left-radius: 5px !important;
+  }
+
+  .modal {
+    --bs-modal-width: 85% !important;
+    --bs-modal-bg: transparent;
+    background-color: rgba(5, 5, 4, 0.85);
   }
 
 }
@@ -151,6 +203,12 @@ footer {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   }
 
+  .modal {
+    --bs-modal-width: 50% !important;
+    --bs-modal-bg: transparent;
+    background-color: rgba(5, 5, 4, 0.85);
+  }
+
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -160,6 +218,12 @@ footer {
       width: 100%;
       height: 290px;
 	}
+
+  .modal {
+    --bs-modal-width: 50% !important;
+    --bs-modal-bg: transparent;
+    background-color: rgba(5, 5, 4, 0.85);
+  }
 
 }
 
@@ -297,8 +361,8 @@ a.btn-nav-white:hover {
   width: 100%;
   padding-left: 30px;
   padding-right: 30px;
-  padding-top:  36.8px;
-  padding-bottom: 36.8px;
+  padding-top:  38.1px;
+  padding-bottom: 38.1px;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 1px rgba(255, 255, 255, 0.15), 0 7px 0 #bbb, 0 8px 3px rgba(0, 0, 0, 0.2);
   border: none;
   background: #dfe0df;
@@ -316,8 +380,8 @@ a.btn-nav-white:hover {
   width: 100%;
   padding-left: 30px;
   padding-right: 30px;
-  padding-top:  36.8px;
-  padding-bottom: 36.8px;
+  padding-top:  38.1px;
+  padding-bottom: 38.1px;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 1px rgba(255, 255, 255, 0.15), 0 7px 0 #a3a3a3, 0 8px 3px rgba(0, 0, 0, 0.2), 0 0 5px #f7f7f7,  0 0 8px #f7f7f7;
   border: none;
   background: #d8d8d8;
@@ -339,8 +403,8 @@ a.btn-nav-white:hover {
   width: 100%;
   padding-left: 30px;
   padding-right: 30px;
-  padding-top:  36.8px;
-  padding-bottom: 36.8px;
+  padding-top:  38.1px;
+  padding-bottom: 38.1px;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 1px rgba(255, 255, 255, 0.15), 0 7px 0 #FA6E00, 0 8px 3px rgba(0, 0, 0, 0.2);
   border: none;
   background: #fc892b;
@@ -359,8 +423,8 @@ a.btn-nav-white:hover {
   width: 100%;
   padding-left: 30px;
   padding-right: 30px;
-  padding-top:  36.8px;
-  padding-bottom: 36.8px;
+  padding-top:  38.1px;
+  padding-bottom: 38.1px;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 1px rgba(255, 255, 255, 0.15), 0 7px 0 #e06200, 0 8px 3px rgba(0, 0, 0, 0.2), 0 0 5px #FA6E00,  0 0 8px #FA6E00;
   border: none;
   background: #fa8220;
@@ -427,15 +491,38 @@ input.input-value {
 
 .account-box-create-account button {
   width: 85%;
-  border: none;
-  background: #FA6E00;
-  border-radius: 3px;
-  padding-top: 10px;
+  padding-top:  10px;
   padding-bottom: 10px;
-  color: #DFE0DF;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 1px rgba(255, 255, 255, 0.15), 0 5px 0 #FA6E00, 0 8px 3px rgba(0, 0, 0, 0.2);
+  border: none;
+  background: #fc892b;
   font-size: 16px;
-  text-align: center;
-  font-weight: 500;
+  border-radius: 6px;
+  font-weight: bolder;
+  color: #DFE0DF;
+  cursor: pointer;
+  text-shadow: 2px 4px 3px #FA6E00;
+  transition: all 0.5s ease;
+  position: relative;
+  
+}
+
+.account-box-create-account button:hover {
+  width: 85%;
+  padding-top:  10px;
+  padding-bottom: 10px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 1px rgba(255, 255, 255, 0.15), 0 5px 0 #e06200, 0 8px 3px rgba(0, 0, 0, 0.2), 0 0 5px #FA6E00,  0 0 8px #FA6E00;
+  border: none;
+  background: #fa8220;
+  font-size: 16px;
+  border-radius: 6px;
+  font-weight: bolder;
+  color: #DFE0DF;
+  cursor: pointer;
+  text-shadow: 2px 4px 3px #e06200;
+  transition: all 0.5s ease;
+  position: relative;
+  
 }
 
 .account-box-create-account a {
@@ -461,15 +548,38 @@ input.input-value {
 
 .account-box-user-account button {
   width: 85%;
-  border: none;
-  background: #FA6E00;
-  border-radius: 3px;
-  padding-top: 10px;
+  padding-top:  10px;
   padding-bottom: 10px;
-  color: #DFE0DF;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 1px rgba(255, 255, 255, 0.15), 0 5px 0 #FA6E00, 0 8px 3px rgba(0, 0, 0, 0.2);
+  border: none;
+  background: #fc892b;
   font-size: 16px;
-  text-align: center;
-  font-weight: 500;
+  border-radius: 6px;
+  font-weight: bolder;
+  color: #DFE0DF;
+  cursor: pointer;
+  text-shadow: 2px 4px 3px #FA6E00;
+  transition: all 0.5s ease;
+  position: relative;
+  
+}
+
+.account-box-user-account button:hover {
+  width: 85%;
+  padding-top:  10px;
+  padding-bottom: 10px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 1px rgba(255, 255, 255, 0.15), 0 5px 0 #e06200, 0 8px 3px rgba(0, 0, 0, 0.2), 0 0 5px #FA6E00,  0 0 8px #FA6E00;
+  border: none;
+  background: #fa8220;
+  font-size: 16px;
+  border-radius: 6px;
+  font-weight: bolder;
+  color: #DFE0DF;
+  cursor: pointer;
+  text-shadow: 2px 4px 3px #e06200;
+  transition: all 0.5s ease;
+  position: relative;
+  
 }
 
 .account-box-user-account a {
@@ -495,15 +605,38 @@ input.input-value {
 
 .account-box-recover-password button {
   width: 85%;
-  border: none;
-  background: #FA6E00;
-  border-radius: 3px;
-  padding-top: 10px;
+  padding-top:  10px;
   padding-bottom: 10px;
-  color: #DFE0DF;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 1px rgba(255, 255, 255, 0.15), 0 5px 0 #FA6E00, 0 8px 3px rgba(0, 0, 0, 0.2);
+  border: none;
+  background: #fc892b;
   font-size: 16px;
-  text-align: center;
-  font-weight: 500;
+  border-radius: 6px;
+  font-weight: bolder;
+  color: #DFE0DF;
+  cursor: pointer;
+  text-shadow: 2px 4px 3px #FA6E00;
+  transition: all 0.5s ease;
+  position: relative;
+  
+}
+
+.account-box-recover-password button:hover {
+  width: 85%;
+  padding-top:  10px;
+  padding-bottom: 10px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 1px rgba(255, 255, 255, 0.15), 0 5px 0 #e06200, 0 8px 3px rgba(0, 0, 0, 0.2), 0 0 5px #FA6E00,  0 0 8px #FA6E00;
+  border: none;
+  background: #fa8220;
+  font-size: 16px;
+  border-radius: 6px;
+  font-weight: bolder;
+  color: #DFE0DF;
+  cursor: pointer;
+  text-shadow: 2px 4px 3px #e06200;
+  transition: all 0.5s ease;
+  position: relative;
+  
 }
 
 .account-box-recover-password a {
@@ -536,20 +669,44 @@ input.input-value {
   font-size: 16px;
 }
 
-.account-box-support button {
+.account-box-support-account button {
   width: 85%;
-  border: none;
-  background: #FA6E00;
-  border-radius: 3px;
-  padding-top: 10px;
+  padding-top:  10px;
   padding-bottom: 10px;
-  color: #DFE0DF;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 1px rgba(255, 255, 255, 0.15), 0 5px 0 #FA6E00, 0 8px 3px rgba(0, 0, 0, 0.2);
+  border: none;
+  background: #fc892b;
   font-size: 16px;
-  text-align: center;
-  font-weight: 500;
+  border-radius: 6px;
+  font-weight: bolder;
+  color: #DFE0DF;
+  cursor: pointer;
+  text-shadow: 2px 4px 3px #FA6E00;
+  transition: all 0.5s ease;
+  position: relative;
+  
+}
+
+.account-box-support-account button:hover {
+  width: 85%;
+  padding-top:  10px;
+  padding-bottom: 10px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 1px rgba(255, 255, 255, 0.15), 0 5px 0 #e06200, 0 8px 3px rgba(0, 0, 0, 0.2), 0 0 5px #FA6E00,  0 0 8px #FA6E00;
+  border: none;
+  background: #fa8220;
+  font-size: 16px;
+  border-radius: 6px;
+  font-weight: bolder;
+  color: #DFE0DF;
+  cursor: pointer;
+  text-shadow: 2px 4px 3px #e06200;
+  transition: all 0.5s ease;
+  position: relative;
+  
 }
 
 button.btn-email {
+  width: 85%;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 20px;
@@ -589,15 +746,38 @@ button.btn-email:hover {
 
 .account-box-changes button {
   width: 85%;
-  border: none;
-  background: #FA6E00;
-  border-radius: 3px;
-  padding-top: 10px;
+  padding-top:  10px;
   padding-bottom: 10px;
-  color: #DFE0DF;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 1px rgba(255, 255, 255, 0.15), 0 5px 0 #FA6E00, 0 8px 3px rgba(0, 0, 0, 0.2);
+  border: none;
+  background: #fc892b;
   font-size: 16px;
-  text-align: center;
-  font-weight: 500;
+  border-radius: 6px;
+  font-weight: bolder;
+  color: #DFE0DF;
+  cursor: pointer;
+  text-shadow: 2px 4px 3px #FA6E00;
+  transition: all 0.5s ease;
+  position: relative;
+  
+}
+
+.account-box-changes button:hover {
+  width: 85%;
+  padding-top:  10px;
+  padding-bottom: 10px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 1px rgba(255, 255, 255, 0.15), 0 5px 0 #e06200, 0 8px 3px rgba(0, 0, 0, 0.2), 0 0 5px #FA6E00,  0 0 8px #FA6E00;
+  border: none;
+  background: #fa8220;
+  font-size: 16px;
+  border-radius: 6px;
+  font-weight: bolder;
+  color: #DFE0DF;
+  cursor: pointer;
+  text-shadow: 2px 4px 3px #e06200;
+  transition: all 0.5s ease;
+  position: relative;
+  
 }
 
 .account-box-changes a {
@@ -697,12 +877,6 @@ button.btn-email:hover {
 
 
 /****** Modals ******/
-
-.modal {
-  --bs-modal-width: 50%;
-  --bs-modal-bg: transparent;
-  background-color: rgba(5, 5, 4, 0.85);
-}
 
 .modal-header, .modal-body {
   border-bottom: 3px solid rgba(0,0,0,0.6);
@@ -820,25 +994,83 @@ input.form-value {
   font-size: 14px;
 }
 
+
 .btn-modal {
-  padding-top: 10px;
+  padding-top:  10px;
   padding-bottom: 10px;
   padding-left: 20px;
   padding-right: 20px;
-  border: 3px solid #FA6E00;
-  color: #DFE0DF;
-  font-weight: 600;
-  background: transparent;
-  border-radius: 3px;
-  font-size: 13.5px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 1px rgba(255, 255, 255, 0.15), 0 5px 0 #FA6E00, 0 8px 3px rgba(0, 0, 0, 0.2);
+  border: none;
+  background: #fc892b;
+  font-size: 16px;
+  border-radius: 9px;
+  font-weight: bolder;
+  color: #620000;
+  cursor: pointer;
+  text-shadow: 2px 4px 3px #FA6E00;
+  transition: all 0.5s ease;
+  position: relative;
+  
 }
 
 .btn-modal:hover {
-  color: #DFE0DF;
-  background: #FA6E00;
-  border: 3px solid #FA6E00;
-  transition: border 0.5s, background 0.5s, color 0.5s;
+  padding-top:  10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 1px rgba(255, 255, 255, 0.15), 0 5px 0 #e06200, 0 8px 3px rgba(0, 0, 0, 0.2), 0 0 5px #FA6E00,  0 0 8px #FA6E00;
+  border: none;
+  background: #fa8220;
+  font-size: 16px;
+  border-radius: 9px;
+  font-weight: bolder;
+  color: #620000;
+  cursor: pointer;
+  text-shadow: 2px 4px 3px #e06200;
+  transition: all 0.5s ease;
+  position: relative;
+  
 }
+
+.btn-modal-close {
+  padding-top:  10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 1px rgba(255, 255, 255, 0.15), 0 5px 0 #bbb, 0 8px 3px rgba(0, 0, 0, 0.2);
+  border: none;
+  background: #dfe0df;
+  font-size: 16px;
+  border-radius: 9px;
+  font-weight: bolder;
+  color: #402e32;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  position: relative;
+  text-shadow: 2px 4px 3px #bbb;
+  
+}
+
+.btn-modal-close:hover {
+  padding-top:  10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 1px rgba(255, 255, 255, 0.15), 0 5px 0 #a3a3a3, 0 8px 3px rgba(0, 0, 0, 0.2), 0 0 5px #f7f7f7,  0 0 8px #f7f7f7;
+  background: #d8d8d8;
+  font-size: 16px;
+  border-radius: 9px;
+  font-weight: bolder;
+  color: #402e32;
+  cursor: pointer;
+  text-shadow: 2px 4px 3px #a3a3a3;
+  transition: all 0.5s ease;
+  position: relative;
+  text-shadow: 2px 4px 3px #a3a3a3;
+  
+}
+
 
 /****** Modals - End ******/
 
