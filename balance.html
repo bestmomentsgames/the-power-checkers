@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Power Checkers</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/56ede590f2.js" crossorigin="anonymous"></script>
+    <!-- Fav icon -->
+    <link rel="icon" type="image/x-icon" href="logo/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  </head>
+  <body>
+
+    <!-- Navigation -->
+
+     <nav class="navbar navbar-expand-lg navbar-background navbar-dark p-3">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="useraccount.html"><img src="logo/logo.png"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item me-2 mt-sm-1 mt-md-1 mt-lg-0">
+                    <button class="btn-nav-diamonds"><img src="icons/diamond.png" width="24px" class="me-2"><span>4500</span></button>
+                </li>
+                <li class="nav-item me-2 mt-sm-1 mt-md-1 mt-lg-0">
+                  <a href="balance.html">
+                    <button class="btn-nav-yellow">Buy diamonds</button>
+                  </a>
+                </li>
+                <li class="nav-item me-2 mt-sm-1 mt-md-1 mt-lg-0">
+                  <a href="support-user.html">
+                    <button class="btn-nav-white">Support</button>
+                  </a>
+                </li>
+                <li class="nav-item mt-sm-1 mt-md-1 mt-lg-0">
+                  <div class="dropdown">
+                      <a class="btn btn-secondary btn-nav-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        User Name
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="accountchanges.html">My account</a></li>
+                        <li><a class="dropdown-item" href="#">Exit</a></li>
+                      </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+      </nav>
+
+    <!-- Navigation - End -->
+    
+
+    <!-- Balance Content -->
+
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col balance-content">
+                <h1 class="display-4"><img src="icons/diamond.png" width="70px"> <span>4500</span></h1><br>
+                <button class="btn-balance" data-bs-toggle="modal" data-bs-target="#withdraw">Withdraw diamonds (in dollars)</button><br><br>
+                <hr><br>
+                <h1 class="display-4">Buy diamonds</h1><br><br>
+                <div class="row">
+                  <div class="col">
+
+                       <div class="row mt-3">
+                              <div class="col"><button class="btn-diamond class1"><img src="icons/diamond.png" width="20px"> 1</button></div>
+                              <div class="col"><button class="btn-diamond class2"><img src="icons/diamond.png" width="20px"> 2</button></div>
+                              <div class="col"><button class="btn-diamond class5"><img src="icons/diamond.png" width="20px"> 5</button></div>
+                      </div>
+
+                      <div class="row mt-3">
+                              <div class="col"><button class="btn-diamond class10"><img src="icons/diamond.png" width="20px"> 10</button></div>
+                              <div class="col"><button class="btn-diamond class20"><img src="icons/diamond.png" width="20px"> 20</button></div>
+                              <div class="col"><button class="btn-diamond class50"><img src="icons/diamond.png" width="20px"> 50</button></div>
+                      </div>
+
+                      <div class="row mt-3">
+                              <div class="col"><button class="btn-diamond class100"><img src="icons/diamond.png" width="20px"> 100</button></div>
+                              <div class="col"><button class="btn-diamond class200"><img src="icons/diamond.png" width="20px"> 200</button></div>
+                              <div class="col"><button class="btn-diamond class500"><img src="icons/diamond.png" width="20px"> 500</button></div>
+                      </div>
+
+                      <div class="row mt-3">
+                              <div class="col"><button class="btn-diamond class1000"><img src="icons/diamond.png" width="20px"> 1000</button></div>
+                              <div class="col"><button class="btn-diamond class1500"><img src="icons/diamond.png" width="20px"> 1500</button></div>
+                              <div class="col"><button class="btn-diamond class2000"><img src="icons/diamond.png" width="20px"> 2000</button></div>
+                      </div>
+                   
+                       <div class="input-group input-group-height mt-3">
+                         <span class="input-group-text"><img src="icons/diamond.png" width="24px"></span>
+                         <input type="text" class="input-class input-value" style="flex: 1 1 auto">
+                       </div>
+                       <span class="input-group-span">Minimum: 1</span><br>
+                       <span class="input-group-span">Enter only whole numbers</span>
+                       <br><br>
+                       <button class="btn-balance" data-bs-toggle="modal" data-bs-target="#buy-diamonds">Buy</button>
+                   
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Balance Content - End -->
+
+
+    <!-- Footer -->
+
+    <footer class="d-flex align-items-center p-4 mt-5">
+      <p class="col-md-4 mb-0 link-color">Copyright &copy; 2022</p>
+
+      <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto text-decoration-none">
+        <img class="footer-icon" src="logo/footer-icon.png">
+      </a>
+
+      <ul class="nav col-md-4 justify-content-end">
+        <li class="nav-item"><a href="useraccount.html" class="nav-link px-2 link-color">Home</a></li>
+        <li class="nav-item"><a href="support-user.html" class="nav-link px-2 link-color">Support</a></li>
+        <li class="nav-item"><a href="terms-user.html" class="nav-link px-2 link-color">Terms of Use</a></li>
+        <li class="nav-item"><a href="policyprivacy-user.html" class="nav-link px-2 link-color">Policy Privacy</a></li>
+      </ul>
+    </footer>
+
+    <!-- Footer - End -->
+
+
+    <!-- Modals -->
+
+    <div class="modal fade" id="withdraw" tabindex="-1" aria-labelledby="withdraw" aria-hidden="true">
+      <div class="modal-dialog mt-lg-5">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5>Withdraw diamonds</h5>
+          </div>
+          <div class="modal-body">
+            <p>Here you should have options so that the user can withdraw their money from the platform and transfer it to a financial services platform or bank account!</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn-modal" data-bs-dismiss="modal" aria-label="Close">Close</button>
+            <button type="button" class="btn-modal">Withdraw diamonds</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="buy-diamonds" tabindex="-1" aria-labelledby="buy-diamonds" aria-hidden="true">
+      <div class="modal-dialog mt-lg-5">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5>Add credit</h5>
+          </div>
+          <div class="modal-body">
+            <p>Here you should have the forms where the user should be able to enter their credit card details and be able to add credits to their account!</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn-modal" data-bs-dismiss="modal" aria-label="Close">Close</button>
+            <button type="button" class="btn-modal">Get your money</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modals - End -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script  src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script>
+      $(document).ready(function(){
+          $(".navbar-brand img").mouseenter(function(){
+            $(this).attr('src', 'logo/logo2.png');
+          });
+          $(".navbar-brand img").mouseleave(function(){
+            $(this).attr('src', 'logo/logo.png');
+          })
+      });
+    </script>
+    <script>
+      $(document).ready(function(){
+           $("footer .footer-icon").mouseenter(function(){
+            $(this).attr('src', 'logo/footer-icon2.png');
+          });
+          $("footer .footer-icon").mouseleave(function(){
+            $(this).attr('src', 'logo/footer-icon.png');
+          });
+      });
+    </script>
+    <script type="text/javascript">
+      $(function (){
+         $( ".class1" ).click(function() {
+          $(this).css('background-color', '#F06B02')
+          $(".class2, .class5, .class10, .class20, .class50, .class100, .class200, .class500, .class1000, .class1500, .class2000").css('background-color', '#3C3A38');
+          $('.input-class').css('background-color', '#3C3A38')
+        });
+         $( ".class2" ).click(function() {
+          $(this).css('background-color', '#F06B02')
+          $(".class1, .class5, .class10, .class20, .class50, .class100, .class200, .class500, .class1000, .class1500, .class2000").css('background-color', '#3C3A38');
+          $('.input-class').css('background-color', '#3C3A38')
+        });
+         $( ".class5" ).click(function() {
+          $(this).css('background-color', '#F06B02')
+          $(".class1, .class2, .class10, .class20, .class50, .class100, .class200, .class500, .class1000, .class1500, .class2000").css('background-color', '#3C3A38');
+          $('.input-class').css('background-color', '#3C3A38')
+        });
+         $( ".class10" ).click(function() {
+          $(this).css('background-color', '#F06B02')
+          $(".class1, .class2, .class5, .class20, .class50, .class100, .class200, .class500, .class1000, .class1500, .class2000").css('background-color', '#3C3A38');
+          $('.input-class').css('background-color', '#3C3A38')
+        });
+         $( ".class20" ).click(function() {
+          $(this).css('background-color', '#F06B02')
+          $(".class1, .class2, .class5, .class10, .class50, .class100, .class200, .class500, .class1000, .class1500, .class2000").css('background-color', '#3C3A38');
+          $('.input-class').css('background-color', '#3C3A38')
+        });
+         $( ".class50" ).click(function() {
+          $(this).css('background-color', '#F06B02')
+          $(".class1, .class2, .class5, .class10, .class20, .class100, .class200, .class500, .class1000, .class1500, .class2000").css('background-color', '#3C3A38');
+          $('.input-class').css('background-color', '#3C3A38')
+        });
+         $( ".class100" ).click(function() {
+          $(this).css('background-color', '#F06B02')
+          $(".class1, .class2, .class5, .class10, .class20, .class50, .class200, .class500, .class1000, .class1500, .class2000").css('background-color', '#3C3A38');
+          $('.input-class').css('background-color', '#3C3A38')
+        });
+         $( ".class200" ).click(function() {
+          $(this).css('background-color', '#F06B02')
+          $(".class1, .class2, .class5, .class10, .class20, .class50, .class100, .class500, .class1000, .class1500, .class2000").css('background-color', '#3C3A38');
+          $('.input-class').css('background-color', '#3C3A38')
+        });
+         $( ".class500" ).click(function() {
+          $(this).css('background-color', '#F06B02')
+          $(".class1, .class2, .class5, .class10, .class20, .class50, .class200, .class1000, .class1500, .class2000").css('background-color', '#3C3A38');
+          $('.input-class').css('background-color', '#3C3A38')
+        });
+         $( ".class1000" ).click(function() {
+          $(this).css('background-color', '#F06B02')
+          $(".class1, .class2, .class5, .class10, .class20, .class50, .class100, .class200, .class500, .class1500, .class2000").css('background-color', '#3C3A38');
+          $('.input-class').css('background-color', '#3C3A38')
+        });
+         $( ".class1500" ).click(function() {
+          $(this).css('background-color', '#F06B02')
+          $(".class1, .class2, .class5, .class10, .class20, .class50, .class200, .class500, .class1000, .class2000").css('background-color', '#3C3A38');
+          $('.input-class').css('background-color', '#3C3A38')
+        });
+         $( ".class2000" ).click(function() {
+          $(this).css('background-color', '#F06B02')
+          $(".class1, .class2, .class5, .class10, .class20, .class50, .class200, .class500, .class1000, .class1500").css('background-color', '#3C3A38');
+          $('.input-class').css('background-color', '#3C3A38')
+        });
+         $('.input-class').click(function() {
+          $(this).css('background-color', '#F06B02')
+          $(this).css('color', 'white')
+          $(".class1, .class2, .class5, .class10, .class20, .class50, .class100, .class200, .class500, .class1000, .class1500, .class2000").css('background-color', '#3C3A38');
+         })
+
+      })
+    </script>
+  </body>
+</html>
