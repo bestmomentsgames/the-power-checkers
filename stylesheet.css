@@ -332,6 +332,17 @@ a.btn-nav-white:hover {
   font-size: 13.5px;
 }
 
+.dropdown-menu {
+  --bs-dropdown-link-active-bg: #FA6E00 !important;
+  --bs-dropdown-link-color: #620000 !important; 
+  --bs-dropdown-link-hover-bg: #FDF0E6 !important;
+}
+
+.btn-secondary {
+  --bs-btn-active-bg: #620000 !important;
+  --bs-btn-active-border-color: #620000 !important;
+}
+
 
 
 /****** Navigation - End ******/
