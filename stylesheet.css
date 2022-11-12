@@ -251,7 +251,7 @@ body {
 /****** Social Media Login ******/
 
 
-.btn-social-media {
+a.btn-social-media {
   width: 80%;
   padding: 12px;
   border: none;
@@ -264,18 +264,18 @@ body {
   text-decoration: none; /* remove underline from anchors */
 }
 
-.btn-social-media:hover {
+a.btn-social-media:hover {
   opacity: 1;
 }
 
 /* add appropriate colors to fb and google buttons */
-.fb {
+a.fb {
   background-color: #1877f2;
   color: white;
   font-family: "rubik"
 }
 
-.google {
+a.google {
   background-color: #dd4b39;
   color: white;
   font-family: "rubik"
