@@ -27,12 +27,17 @@
     width: 100%;
     border-radius: 5px;
     color: white;
-    text-align: center;
-    justify-content: center;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   }
+	
+  .legal-box h1 {
+    text-align: center;
+  }
 
-
+  .legal-box p {
+    text-align: left;
+  }
+	
   footer {
     width: 100%;
     background: #291301;
@@ -73,9 +78,9 @@
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
 
-	.play-area img.cover-image {
+ .play-area img.cover-image {
     display:  none;
-	}
+  }
 
   .play-area-img {
     display: none;
@@ -94,9 +99,15 @@
     width: 100%;
     border-radius: 5px;
     color: white;
-    text-align: center;
-    justify-content: center;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+	
+ .legal-box h1 {
+    text-align: center;
+  }
+
+ .legal-box p {
+    text-align: left;
   }
 
   footer {
@@ -202,9 +213,15 @@
     width: 100%;
     border-radius: 5px;
     color: white;
-    text-align: center;
-    justify-content: center;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+
+  .legal-box h1 {
+    text-align: center;
+  }
+
+  .legal-box p {
+    text-align: left;
   }
 
   .modal {
