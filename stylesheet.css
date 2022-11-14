@@ -146,9 +146,9 @@
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
-.play-area img.cover-image {
-   display: block;
-}
+  .play-area img.cover-image {
+     display: block;
+  }
 
   .play-area-img {
     padding-top: 20px;
@@ -353,6 +353,7 @@ a.btn-nav-white:hover {
   --bs-dropdown-link-active-bg: #FA6E00 !important;
   --bs-dropdown-link-color: #620000 !important; 
   --bs-dropdown-link-hover-bg: #FDF0E6 !important;
+  --bs-dropdown-link-hover-color: #620017 !important;
 }
 
 .btn-secondary {
